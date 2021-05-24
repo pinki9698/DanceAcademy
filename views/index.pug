@@ -1,0 +1,55 @@
+doctype html
+html
+   head
+      title PK Dance Academy
+      style
+         include ../static/style.css
+   body 
+     nav#navbar
+        //- |nav#navbar.top.firstclass.secondclass       *Adding multiple classes
+        ul
+           div#logo 
+                 img(src="../static/dance-club-logo.jpg")
+           li #[a(href="/") Home]
+           li #[a(href="/") Contact Us] 
+
+        section#introsection 
+          h2 Welcome to PK Dance Academy
+          h4 Eat Dance Sleep And Repeat.
+        section#missionsection 
+         h2 Our Mission 
+         div.row.card 
+           div.column.img 
+                h3 Dance Title1
+                img(src="../static/1.png")
+                div.card-content     
+                   p This is the best dance academy of the universe.  
+           div.column.img 
+                h3 Dance Title2 
+                img(src="../static/2.png")
+                div.card-content     
+                   p This is the best dance academy of the universe.  
+           div.column.img 
+                h3 Dance Title3 
+                img(src="../static/3.png")
+                div.card-content     
+                   p This is the best dance academy of the universe.  
+           div.column.img 
+                h3 Dance Title4
+                img(src="../static/4.png")
+                div.card-content     
+                   p This is the best dance academy of the universe.  
+                    
+        section#sponsorsection 
+          h2 Our Sponsors
+          div#sponsors
+             img(src="../static/apple-logo.jpg",alt="Sponsors Image", class="spimg")
+             img(src="../static/microsoft-logo.png",alt="Sponsors Image", class="spimg")
+             img(src="../static/hp-logo.jpg",alt="Sponsors Image", class="spimg")
+             img(src="../static/skype-logo.png",alt="Sponsors Image", class="spimg")
+
+        footer#footer 
+            h4 Copyright ©2021 PK💙 Dance Academy,All Rights Are Reserved.   
+     script
+        include ../static/script.js
+        

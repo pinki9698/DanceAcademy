@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* #navbar{
+  background-color: black;
+} */
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 50px;
+    filter:invert(1);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 3px 10px;
+     color: #1a1add;
+}
+#navbar li a:hover{
+    color: rgb(29, 29, 124);
+ }
+
+#introsection{
+    height: 520px;
+    background-color:white;
+    /* box-shadow: (0,0,0,0.19); */
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0,0.19);
+    text-align: center;
+    margin: 10px;
+    padding: 206px;
+    background-image: url("../static/bg2-dance.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    color: blue;
+    /* background:cover/cover no-repeat url("../static/bg2-dance.jpg"); */
+}
+#introsection h4{
+  color: black;
+}
+#missionsection{
+    /* height: 400px; */
+    background-color:white;
+    /* box-shadow: (0,0,0,0.19); */
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0,0.19);
+    text-align: center;
+    margin: 10px;
+    
+}
+#sponsorsection{
+    height: 300px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0,0.19);
+    text-align: center;
+    margin: 10px;
+}
+#footer{
+    
+    margin-top: 10px;
+    background-color: black;
+   text-align: center;
+   color: white;
+   padding: 8px;
+
+}
+.column {
+    background-color: rgba(32, 8, 8, 0);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 75%);
+    /* margin: 10px; */
+    float: left;
+    width: 20%;
+    padding: 25px;
+    height: 251px;
+    margin: 12px 30px;
+    border-radius: 122px;
+    border: 2px solid black;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.card img{
+    height: 100px;
+}
+
+#sponsors img{
+    height: 190px;
+    padding: 30px 80px;
+}
+
+
+ /*
+
+ For responsive column  360 to 640
+ 
+ 
+ .column {
+    background-color: rgba(32, 8, 8, 0);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 75%);
+    width: 44%;
+    padding: 31px;
+    height: 251px;
+    margin: 19px 257px;
+    border-radius: 122px;
+    border: 2px solid black;
+    justify-content: center;
+} */
+
+/* 
+For responsive Our Sponsors section logo  360 to 640
+
+#sponsors img {
+    height: 190px;
+    padding: 30px 30px;
+} */
