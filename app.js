@@ -14,7 +14,8 @@ const port = process.env.PORT || 2200;
 
 // Getting started .js for mongoose
 var mongoose=require("mongoose");
-mongoose.connect("mongodb://localhost/contactDance",{useNewUrlParser:true,useUnifiedTopology: true });
+const DB='mongodb+srv://pinki:mera&password@cluster0.gydde.mongodb.net/newdatabase?retryWrites=true&w=majority';
+mongoose.connect(DB,{useNewUrlParser:true,useUnifiedTopology: true });
 
 //Define mongoose schema
 var DcontactSchema= new mongoose.Schema({
